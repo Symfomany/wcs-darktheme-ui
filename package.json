@@ -1,0 +1,17 @@
+{
+  "name": "wcs-darktheme-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "Official Wild Code School theme for Atom",
+  "keywords": [
+    "ui",
+    "theme",
+    "WCS",
+    "Wild Code School"
+  ],
+  "repository": "https://github.com/GaetanRole/wcs-darktheme-ui.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
