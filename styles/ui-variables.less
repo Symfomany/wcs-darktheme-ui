@@ -10,8 +10,16 @@
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
 
+@font-face {
+       font-family: 'alwyn';
+       src: url('../fonts/alwyn.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+   }
+
+
 // Text Colors
-@text-color:           #a5a5a5;
+@text-color:           #777;
 @text-color-subtle:    hsl(0,0%,50%);
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
@@ -32,8 +40,8 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: #191717;
-@base-border-color:     #3c2823;
+@base-background-color: #2d2a2a;
+@base-border-color:     #51322a;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -76,18 +84,18 @@
 @ui-site-color-5: #EBDD5B;             // yellow
 
 // Sizes
-@font-size: 12px;
-@input-font-size: 14px;
+@font-size: 15px;
+@input-font-size: 15px;
 
 @disclosure-arrow-size: 12px;
 
-@component-padding: 10px;
+@component-padding: 30px;
 @component-icon-padding: 5px;
 @component-icon-size: 16px;
 @component-line-height: 30px;
 
-@tab-height: 50px;
+@tab-height: 40px;
 
 // Misc
-@component-border-radius: 2px;
-@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@component-border-radius: 0px;
+@font-family: 'alwyn','Lucida Grande', '.SFNSText-Regular', 'SF UI Text', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
