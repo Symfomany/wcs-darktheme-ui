@@ -7,6 +7,13 @@
 
 // -------------------
 
+@font-face {
+       font-family: 'alwyn';
+       src: url('../fonts/alwyn.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
+
 
 body {
   font-size: @font-size;
@@ -15,9 +22,30 @@ body {
   background-color: @app-background-color;
 }
 
+
 atom-pane {
   border-right: 20px solid @base-background-color;
   &:last-child {
     border-right: none;
   }
+}
+
+
+
+
+
+
+atom-text-editor{
+  font-family: 'alwyn' !important;
+  font-size: 15px;
+}
+
+atom-text-editor {
+    background-color: #231812;
+}
+.tree-view .full-menu{
+  font-family:  'alwyn';
+}
+.syntax--entity.syntax--name.syntax--tag {
+    color: #f9a02e;
 }
