@@ -20,7 +20,7 @@ Paragraphe Gras : Source Sans Pro Semi-Bold
 
 ### Palette de Couleurs
 
-Orange Wild
+# Orange Wild
 Intense
 #f9a02e - rgb(249, 160, 46) - CMJN(0, 36, 82, 2)
 Pastel
@@ -29,8 +29,7 @@ Light
 #ffdea5 - rgb( 255, 222, 165) - CMJN(0, 13, 35, 0)
 
 
-
-Blue Wild
+# Blue Wild
 Intense
 #1fa597 - rgb(31, 165, 151) - CMJN(81, 0, 8, 35)
 Pastel
@@ -41,7 +40,7 @@ Light
 Red Contrast
 #b9184d rgb(185, 24, 77) CMJN(0, 87, 58, 27)
 
-Text
+# Text
 Main
 #35383a - rgb(53, 56, 58) - CMJN(9, 3, 0, 77)
 Secondary
@@ -51,8 +50,7 @@ Font Grey
 #f1f1f1 rgb(241, 241, 241) CMJN(0, 0, 0, 5)
 
 
-
-Background
+# Background
 #fbfbfb rgb(251, 251, 251) CMJN(0, 0, 0, 2)
 
 
@@ -60,5 +58,44 @@ Background
 [enter link description here](https://wildcodeschool.fr/)
 
 
-## Getting started
+## Install
+
+This repository is distributed with [apm][apm]. After [installing apm][install-apm], you can install `wcs-darktheme-ui` with this command.
+
+```
+$ apm install wcs-darktheme-ui
+```
+
+## Usage
+
+After installation, you can enable this theme in your [Atom theme settings](http://flight-manual.atom.io/using-atom/sections/atom-packages/#_atom_themes).
+
+
+## Contributing
+
+For any bugs, fill reports with the [generator](https://github.com/GaetanRole/wcs-darktheme-ui/issues). For shipping a new version, run the npm script `npm run ship`. This will
+
+- Update the lib files
+- Update the version to match the wcs-darktheme-ui version
+- Push to GitHub
+- Publish to apm
+
+
+Go ahead here:
 http://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/
+
+
+## Changelog
+
+The [changelog](https://github.com/primer/github-syntax-theme-generator/blob/master/CHANGELOG.md) is kept in the generator repository.
+
+## License
+
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
+
+[docs]: http://primercss.io/
+[npm]: https://www.npmjs.com/
+[install-npm]: https://docs.npmjs.com/getting-started/installing-node
+[install-apm]: https://github.com/atom/apm#installing
+[sass]: http://sass-lang.com/
+[apm]: https://atom.io/themes

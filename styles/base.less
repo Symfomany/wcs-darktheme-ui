@@ -31,9 +31,18 @@ atom-pane {
 }
 
 
+.tab-bar{
+      font-family: alwyn;
+}
 
+.tab-bar .tab{
+  font-size: 15px;
+  text-shadow: 1px 1px #191817,1px 1px #191817;
+}
+.tab-bar .tab.active {
 
-
+    text-shadow: 2px 2px #211000,2px 2px #211000;
+}
 
 atom-text-editor{
   font-family: 'alwyn' !important;
@@ -46,6 +55,6 @@ atom-text-editor {
 .tree-view .full-menu{
   font-family:  'alwyn';
 }
-.syntax--entity.syntax--name.syntax--tag {
+.syntax--entity.syntax, .syntax--entity.syntax--name.syntax--tag , .syntax--entity.syntax--other.syntax--attribute-name, .syntax--entity.syntax--other.syntax--attribute-name, atom-text-editor{
     color: #f9a02e;
 }
